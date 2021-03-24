@@ -1,0 +1,1 @@
+the basic django settings
