@@ -10,7 +10,7 @@ def login_form(request):
 def submit_form(request):
     username = request.GET['username']
     password = request.GET['password']
-    if username == 'sumirVats' and password == '1234':
+    if username == 'newUser' and password == '1234':
         return render(request, 'welcome.html')
     else:
         return render(request, 'invalid.html')
